@@ -1,7 +1,7 @@
 # 0xGrow - Web3 Growth & Developer Advocacy
 
 <p align="center">
-  <img src="/social-image.png" alt="0xGrow Banner">
+  <img src="/public/social-image.png" alt="0xGrow Banner">
 </p>
 
 🚀 **Supercharge Your Web3 Growth with 0xGrow** - A ConnectVerse initiative specializing in **developer onboarding, community growth, and go-to-market strategies** for blockchain projects.
