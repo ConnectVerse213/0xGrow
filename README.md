@@ -55,12 +55,12 @@
 ## 💡 About ConnectVerse
 
 0xGrow is part of **ConnectVerse**, an umbrella organization driving **Web3 adoption** through:
-- **[0xAcademy](https://0xacademy.xyz)** (Web3 Education)
-- **0xGrow** (Growth & Marketing)
-- **India Tour 2024** (40+ colleges, 15,000+ students)
+- **[0xAcademy](https://0xAcademy.xyz)** (Web3 Education)
+- **[0xGrow](https://0xGrow.xyz)** (Growth & Marketing)
+- **India Tour 2024** (Covered 40+ colleges helping 20,000+ students)
 
 🌐 **Learn More**: [connectverse.club](https://connectverse.club)
 
 ---
 
-📜 **License**: MIT © [ConnectVerse](https://github.com/ConnectVerse)
+📜 **License**: MIT © [ConnectVerse](https://github.com/ConnectVerse213)
