@@ -1,0 +1,44 @@
+---
+import { Image } from 'astro:assets';
+import H1 from "../components/h1.astro";
+import InfoLayout from "../layouts/InfoLayout.astro";
+import Web3Utsav_Dec from "../assets/Banner_Web3_Utsav-Dec.png";
+import Web3Utsav_Jan from "../assets/Banner_Web3_Utsav-Jan.png";
+import Web3Utsav_Feb from "../assets/Banner_Web3_Utsav-Feb.png";
+
+const projects = [
+     {
+          title: "Web3Utsav 1.0",
+          description: "Happened in December 2024",
+          image: Web3Utsav_Dec
+     },
+     {
+          title: "Web3Utsav 1.0",
+          description: "Happened in January 2025",
+          image: Web3Utsav_Jan
+     },
+     {
+          title: "Web3Utsav 1.0",
+          description: "Happened in February 2025",
+          image: Web3Utsav_Feb
+     }];
+---
+
+<InfoLayout>
+     <div class="p-4 sm:pt-8 sm:px-12 pb-20 min-h-dvh">
+          <p class="mt-8"></p>
+          <H1> Our Events </H1>
+
+          <ul class="mt-4 sm:mt-12 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-16 sm:gap-8">
+               {projects.map((project) => (
+                    <li>
+                         <Image src={project.image} alt={project.title} class="aspect-[1/1] object-center object-cover rounded-lg shadow-lg mb-4 sm:mb-0 sm:mr-4" />
+                         <div class="p-1 sm:p-2">
+                              <h2 class="text-base text-zinc-100">{project.title}</h2>
+                              <p class="text-sm text-zinc-400 text-balance">{project.description}</p>
+                         </div>
+                    </li>
+               ))}
+          </ul>
+     </div>
+</InfoLayout>
